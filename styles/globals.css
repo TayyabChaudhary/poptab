@@ -1,0 +1,745 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+/*
+*  html5resetcss
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+    font-family: "Open Sans", sans-serif;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+nav ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+input,
+select {
+    vertical-align: middle;
+}
+
+._main_header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../public/background.png");
+}
+
+.Op_aoaoa {
+    z-index: 400;
+}
+
+.hading_main,
+._p_a_3_d_d {
+    font-family: "EB Garamond";
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    font-size: 72px;
+}
+
+.oaoaoap {
+    font-family: "EB Garamond";
+    color: #ee6c4d;
+    font-size: 48px;
+}
+
+._opaoao {
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.main_para {
+    line-height: 24.51px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.oapaaaia {
+    color: #434343;
+    font-size: 16px;
+}
+
+._event_button {
+    background-color: #314c6d;
+}
+
+.oapapapo {
+    font-family: "EB Garamond";
+    font-weight: 600;
+}
+.jaiaiai {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.iaoaoa {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+._u_8_h_b_b {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    color: #3d5a80;
+}
+
+.sub_text {
+    margin-top: 10px;
+    line-height: 22.51px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #434343;
+    font-size: 15px;
+    font-style: normal;
+}
+.oaiai li {
+    border-bottom: 1px solid #98c1d9;
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+.oaiai li h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.aiakak {
+    letter-spacing: 0.46em;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.kajkajka {
+    font-family: "EB Garamond";
+    color: #ee6c4d;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+._p_a_s_s_x_c_c {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.I_0_0_0a_S {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.f_image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/f.png");
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+}
+.s_image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/s.png");
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+}
+.t_image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/t.png");
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+}
+.fou_image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/fu.png");
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+}
+.fi_image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/fi.png");
+    width: 260px;
+    height: 150px;
+    background-size: cover;
+}
+._l_a_d_s li {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #434343;
+}
+
+.kisoso {
+    background-color: #ee6c4d;
+}
+
+._p_a_s_S {
+    letter-spacing: 0.9px;
+}
+
+._l_a_d_sui li {
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+    font-size: 36px;
+}
+
+.oaia9aia {
+    height: 130px;
+}
+
+.divivider {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #ccc;
+}
+.kaaooa {
+    line-height: 25px;
+}
+._l_a_d_shaj li {
+    line-height: 40px;
+}
+
+.categories {
+    width: 50px;
+    
+    height: 321px;
+}
+.categories .text {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    letter-spacing: 6.9px;
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+
+/* How its Work */
+.login_dialog {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    overflow: hidden;
+    top: 60px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 30;
+}
+.signup_dialog {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    overflow: hidden;
+    top: 60px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 30;
+}
+
+.special_day_dialog {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    overflow: hidden;
+    top: 60px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 30;
+}
+
+.oappap {
+    width: 1000px;
+}
+._o_9_p_2_s_s {
+    width: 700px;
+}
+
+._save {
+    background-color: #ee6c4d;
+}
+
+.browse {
+    background-color: #3d5a80;
+}
+
+._savespso {
+    background-color: #ee6c4d;
+}
+
+._paoaws table tr {
+    border-bottom: 1px solid #ccc;
+}
+.message_content {
+    height: 350px;
+    overflow-y: auto;
+}
+.ajaooaoao {
+    background-color: #25bace;
+}
+
+.oaiajak {
+    height: 540px !important;
+    overflow: auto;
+}
+
+.kaiaoao {
+    width: 963px;
+}
+.akakak {
+    width: 800px;
+}
+.akjskjdksjk {
+    width: 1200px;
+    padding: 35px;
+}
+
+._p_0_o_8_j li {
+    line-height: 58px;
+    border-bottom: 1px solid #ddd;
+}
+
+.kalapaoo li {
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 22px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+/* input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 65px;
+	height: 40px;
+	background: #E9E9E9;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #EE6C4D;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 130px;
+} */
+
+/* My Events */
+._p_a_x_x_x {
+    width: 800px;
+    max-width: 100%;
+}
+
+/* Vendor ist */
+.vendor_header {
+    background-image: url("/Group 67.png");
+    min-height: 40vh;
+}
+
+.cate {
+    width: 400px;
+    background-color: #fef8f6;
+    padding-bottom: 2rem;
+}
+/* Venue Header */
+.venue_header {
+    background-image: url("/Group 67.png");
+    min-height: 40vh;
+}
+._p_12_s_s {
+    background-color: #fafafa;
+    width: 862px;
+}
+
+.bb {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/bb.png");
+    background-size: cover;
+    width: 250px;
+    background-position: center;
+    height: 200px;
+}
+
+.jaaiaia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/bb.png");
+    background-size: cover;
+    width: 100px;
+    background-position: center;
+    height: 80px;
+}
+
+.textiaooa {
+    font-size: 10px;
+    padding-left: 6px;
+}
+
+.jaiaoao {
+    background-color: #fafafa;
+}
+
+.iaia0a0 li {
+    line-height: 25px;
+}
+
+/* Venue Details THree Background Image */
+.venue_details_three_main {
+    background-image: url("/8q7.png");
+    background-size: cover;
+    min-height: 40vh;
+}
+
+.rec_image {
+    background-image: url("/Rectangle 66.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    box-shadow: 0px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 11px 30px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #fef8f6;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 75px;
+    border-top: none;
+}
+.fifteen_more {
+    width: 70px;
+    height: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/image 56.png");
+    background-size: cover;
+}
+
+.aosoopak {
+    background-image: url("/78.png");
+}
+.uqywuww {
+    background-image: url("/sopa.png");
+}
+
+/* Grid Images */
+.one {
+    background-image: url("/soa.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.two {
+    background-image: url("/aoa.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.three {
+    background-image: url("/bb.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.four {
+    background-image: url("/jaaka.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.five {
+    background-image: url("/image 1010.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.six {
+    background-image: url("/image 111.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.seven {
+    background-image: url("/image 112.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.eight {
+    background-image: url("/image 113.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.nine {
+    background-image: url("/image 114.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.ten {
+    background-image: url("/image 115.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.eleven {
+    background-image: url("/image 116.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.twellev {
+    background-image: url("/hss.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.thirten {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/aoa.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.fourten {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/soa.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.fiften {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bb.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.sixten {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/jaaka.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.laaoaoa {
+    background-color: #fef8f6 !important;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+/* Chips */
+.chips {
+    border: 1px solid #ee6c4d;
+    background-color: #fef8f6;
+}
